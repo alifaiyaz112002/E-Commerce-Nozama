@@ -1,4 +1,3 @@
-/*
 const mongoose = require("mongoose");
 const express = require("express");
 const app = express();
@@ -25,4 +24,3 @@ const LogInSchema = new mongoose.Schema({
 
 const collection = new mongoose.model("Collection1", LogInSchema);
 module.exports = collection;
-*/

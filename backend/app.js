@@ -2,7 +2,7 @@ const express = require('express')
 const app = express();
 const port = 9000;
 var request = require("request");
-/*
+
 const path = require("path");
 const collection = require("./mongodb.js");
 
@@ -46,7 +46,7 @@ app.post("/account/signup", async (req, res) => {
   })
   
 })
-*/
+
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
